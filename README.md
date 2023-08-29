@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+# Apple Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Apple Calculator App is a simple calculator application built using React. It is designed to mimic the appearance and functionality of the calculator app found on Apple devices. This app provides basic arithmetic operations such as addition, subtraction, multiplication, and division, along with a responsive and user-friendly interface.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Basic Arithmetic Operations: Perform addition, subtraction, multiplication, and division calculations with ease.
 
-### `npm start`
+Intuitive Interface: The user interface closely resembles the Apple calculator, providing a familiar experience for users who are accustomed to the Apple ecosystem.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+All Clear: The 'AC' button performs an all-clear action, resetting the calculator to its initial state.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run the Apple Calculator App locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the Repository: Start by cloning this repository to your local machine using the following command:
 
-### `npm run build`
+```bash
+git clone https://github.com/hayden-93/apple-calculator-app.git
+Navigate to the Directory: Move into the project directory:
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd apple-calculator-app
+Install Dependencies: Use npm or yarn to install the required dependencies:
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Usage
 
-### `npm run eject`
+- Press the calculator buttons to input numbers and perform calculations.
+- Use the numeric buttons for input and the operation buttons for performing calculations.
+- The display at the top of the app will show your current input and the calculated result.
+- Perform an all-clear with the 'AC' button.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Acknowledgments
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The design and concept of the calculator are inspired by Apple's calculator app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This app was built using the React JavaScript library.
